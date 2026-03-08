@@ -441,7 +441,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, #b80f38, #ff879f);
+  background-image: linear-gradient(to top, #a91101, #a91101);
   z-index: 1;
   opacity: 0.9;
 }
