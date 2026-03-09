@@ -425,7 +425,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #ff7b90;
-  background-image: linear-gradient(to top, #ff2400, #ff2400);
+  background-image: linear-gradient(to top, #ff3b2f, #ff3b2f);
   transform-origin: bottom center;
   opacity: 0.95;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.4);
@@ -465,7 +465,7 @@ body {
   width: 60%;
   height: 60%;
   border-radius: inherit;
-  background-image: linear-gradient(90deg, #ffeb12, #ffce00);
+  background-image: linear-gradient(90deg, #ff3b2f, #ff3b2f);
 }
 
 .flower__line {
