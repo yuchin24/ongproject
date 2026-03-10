@@ -503,7 +503,51 @@ body {
   top: 12%;
   transform: rotate(-70deg) rotateY(30deg);
 }
+/* BUTTERFLIES */
 
+.butterfly {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #ff2400;
+  border-radius: 50%;
+  box-shadow:
+    10px 0 #ff2400,
+    0 10px #ff2400,
+    10px 10px #ff2400;
+  animation: fly 8s linear infinite;
+  opacity: 0.9;
+}
+
+.b1 {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.b2 {
+  top: 40%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.b3 {
+  top: 60%;
+  left: 30%;
+  animation-delay: 4s;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(120px,-80px);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
 .flower__line__leaf--4 { top: 40%; }
 .flower__line__leaf--5 { top: 0; transform-origin: left; transform: rotate(70deg) rotateY(30deg) scale(0.6); }
 .flower__line__leaf--6 { top: -2%; left: -450%; transform-origin: right; transform: rotate(-70deg) rotateY(30deg) scale(0.6); }
@@ -685,50 +729,5 @@ body {
 
   .letter-card {
     border-radius: 16px;
-  }
-}
-/* BUTTERFLIES */
-
-.butterfly {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background: #ff2400;
-  border-radius: 50%;
-  box-shadow:
-    10px 0 #ff2400,
-    0 10px #ff2400,
-    10px 10px #ff2400;
-  animation: fly 8s linear infinite;
-  opacity: 0.9;
-}
-
-.b1 {
-  top: 20%;
-  left: 10%;
-  animation-delay: 0s;
-}
-
-.b2 {
-  top: 40%;
-  left: 70%;
-  animation-delay: 2s;
-}
-
-.b3 {
-  top: 60%;
-  left: 30%;
-  animation-delay: 4s;
-}
-
-@keyframes fly {
-  0% {
-    transform: translate(0,0);
-  }
-  50% {
-    transform: translate(120px,-80px);
-  }
-  100% {
-    transform: translate(0,0);
   }
 }
